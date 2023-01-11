@@ -1,9 +1,60 @@
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+"heroes": [
+  {
+    "name": "Первый герой",
+    "description": "Первый герой в рейтинге!",
+    "element": "fire",
+    "id": "abf38597-b0b3-478a-9892-14a7bd5ae43f"
+  },
+  {
+    "name": "Неизвестный герой",
+    "description": "Спрятался в тумане",
+    "element": "wind",
+    "id": "d5727b87-44eb-4872-a149-fe35ec99db70"
+  },
+  {
+    "name": "Водяной",
+    "description": "Хозяин морей",
+    "element": "water",
+    "id": "0fdd46ae-5320-4b45-9651-244b12a098c0"
+  },
+  {
+    "name": "Земляной герой",
+    "description": "прячется под землей",
+    "element": "earth",
+    "id": "5e83880d-881d-44f3-a122-e88fd820f6dc"
+  },
+  {
+    "name": "eee",
+    "description": "eeeet",
+    "element": "wind",
+    "id": "a3819715-90e2-4a5a-8522-a479c5820a22"
+  }
+],
+"filters": [
+  {
+    "id": "all",
+    "name": "all",
+    "label": "Все"
+  },
+  {
+    "id": "fire",
+    "name": "fire",
+    "label": "Огонь"
+  },
+  {
+    "id": "water",
+    "name": "water",
+    "label": "Вода"
+  },
+  {
+    "id": "wind",
+    "name": "wind",
+    "label": "Ветер"
+  },
+  {
+    "id": "earth",
+    "name": "earth",
+    "label": "Земля"
+  }
+]
 }
